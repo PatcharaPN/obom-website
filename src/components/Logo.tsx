@@ -1,5 +1,5 @@
 const Logo = () => {
-  return <img src="/LOGO.png" className="w-20 h-15 " />;
+  return <h1 className="text-white text-xl">Logo</h1>;
 };
 
 export default Logo;

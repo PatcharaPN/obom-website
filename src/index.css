@@ -1,1 +1,26 @@
 @import "tailwindcss";
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+/* Ensure proper box-sizing for the images */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.carousel-image {
+  width: 100%; /* Make sure the image takes the full width of the container */
+  height: auto; /* Maintain aspect ratio */
+  border: none; /* Remove any default border */
+  outline: none; /* Remove any outline when clicked */
+  object-fit: cover; /* Ensure the image covers the container without overflow */
+}
+
+.carousel-container {
+  overflow: hidden; /* Prevent overflow */
+}
+.carousel-image:focus {
+  outline: none; /* Removes the default focus outline */
+  border: none; /* Removes any border */
+}
