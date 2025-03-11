@@ -4,10 +4,11 @@ type Props = {};
 
 const NavElement = (props: Props) => {
   return (
-    <ul className="text-white flex gap-2 justify-center items-center h-full text-2xl">
-      <li>Home</li>
+    <ul className="text-white flex gap-9 justify-center items-center cursor-pointer h-full text-2xl">
+      <li>Services</li>
+      <li>Partner</li>
       <li>About</li>
-      <li>Contact</li>
+      <li>Support</li>
     </ul>
   );
 };
